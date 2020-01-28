@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Sidebar from "../components/sidebar"
+import Body from "../components/body"
 
 
 class Portal_body extends React.Component{
@@ -9,7 +10,7 @@ class Portal_body extends React.Component{
             <div>
                 <Header />
                 <Sidebar />   
-                
+                <Body />
             </div>
         )
     }

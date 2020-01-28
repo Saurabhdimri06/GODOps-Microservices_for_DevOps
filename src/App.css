@@ -7,14 +7,13 @@
 /* #region */
 .sidebar{
   height: 90%;
-  width: 22%;
+  width: 20%;
   /* border: 1px solid black; */
   position: fixed;
   float: left;
   top: 11%;
   z-index: 996;
   background: #545352;
-  
   font-size: large;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -28,7 +27,7 @@
   align-content: center;
 }
 
-.header_title{
+.sidebar_title{
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
 }
@@ -38,6 +37,8 @@
   border-bottom: 2px solid lightblue;
   text-decoration: none;
   list-style-type: none;
+  font-size: 16px;
+
 }
 
 .sidebar ul li a{
@@ -56,8 +57,9 @@
 /* #region */
 
 .header_main{
-  height: 20%;
+  height: 18%;
   width: 100%;
+  display: grid;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -65,16 +67,52 @@
   background: #545352;
   z-index: -1;
   display: grid;
-  grid-template-columns: 40% 25% 25% 10%;
+  grid-template-columns: 35% 50% 15%;
   z-index: 997;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: white;
 }
 
+.header_main img{
+  margin-left: 20%;
+}
+
+.header_main p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-size-adjust: initial;
+}
+
+.header_main ul{
+  display: grid;
+  grid-template-columns: 30% 30%;
+}
+
+.header_main ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.header_main ul li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header_main ul li:hover{
+  -webkit-transform: scale(1.5);
+} 
+
 /* #endregion */
 
 /* #Body */
 /* #region */
-
+.db_body{
+  height: 85vh;
+  width: 76%;
+  z-index: 995;
+  margin-left: 22%;
+  border: 1px solid black;
+  background: rgb(233, 241, 248);
+}
 /* #endregion */

@@ -108,6 +108,7 @@
 
 /* #Body */
 /* #region */
+
 .db_body{
   height: 85vh;
   width: 76%;
@@ -124,5 +125,23 @@
   border: 1px solid black;
   height: 25vh;
   width: 40%;
+}
+
+.inputform{
+  margin-top: 2rem;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#basic-url{
+  height: 2rem;
+  width: 300%;
+  margin-left: -100%;
+}
+
+.inputform button{
+  margin: 0.6rem;
+  height: 100%;
 }
 /* #endregion */

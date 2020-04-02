@@ -2,7 +2,6 @@ import React from "react";
 import Logo from "../images/Icon.png"
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
-import SettingsIcon from '@material-ui/icons/Settings';
 
 class Header extends React.Component{
     render() {
